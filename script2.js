@@ -18,10 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!email.includes('@')) {
                 throw new Error('Veuillez saisir une adresse e-mail valide.');
             }
-
-            // Si tous les champs sont remplis et l'adresse e-mail est valide, soumettre le formulaire
-            // Ici, vous pouvez également ajouter le code Ajax pour envoyer les données à votre backend
-
             // Affiche un message de confirmation
             successMessage.textContent = 'Le formulaire de "' + name + '" a bien été transmis.';
             successMessage.style.display = 'block';

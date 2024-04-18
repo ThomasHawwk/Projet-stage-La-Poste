@@ -104,6 +104,7 @@ nav.nav li a {
     font-size: 2.5rem;
     margin-bottom: .5rem;
     text-align: center;
+    margin-top: 100px;
   }
   
   h2{
@@ -139,6 +140,7 @@ nav.nav li a {
   
   .section{
     margin-bottom: 1.5rem;
+    font-size : 1.2rem;
   }
   
   /* LEFT COLUMN */
@@ -160,9 +162,29 @@ nav.nav li a {
   .skills{
     list-style-type: none;
     padding: 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
     margin: 0 0 1rem;
+  }
+  .langues {
+
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+
+  }
+
+  .centres {
+
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+
+
   }
   
   /* RIGHT COLUMN */
@@ -184,8 +206,14 @@ nav.nav li a {
   
   .experience-list{
     list-style-type: circle;
+    font-size: 1.4rem;
+  
   }
 
+  .langues-list {
+    list-style-type: circle;
+    font-size: 1.4rem;
+}
 
 /* pied de page */
 
