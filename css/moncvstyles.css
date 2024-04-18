@@ -217,17 +217,37 @@ img {
     padding: 50px;
   }
   
-  .experience-list{
-    list-style-type: circle;
-    font-size: 1.4rem;
-  
-  }
-
   .langues-list {
     list-style-type: circle;
     font-size: 1.4rem;
 }
 
+
+.experience-list,
+.details {
+  list-style-type: circle;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.details {
+  font-weight: normal;
+}
+
+
+.etude-list {
+  list-style-type: circle;
+  font-size: 1.4rem;
+  font-weight: bold;
+  
+}
+
+
+
+.details-etude {
+
+  font-weight: normal;
+}
 /* pied de page */
 
 footer {
