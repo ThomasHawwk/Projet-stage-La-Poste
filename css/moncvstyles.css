@@ -51,7 +51,7 @@ nav.nav li a {
   text-decoration: underline;
 }
 
-  /* HEADER */
+  /* haut de page */
 
   .top-page{
     grid-area: header; /* placement au niveau de la grille*/
@@ -77,9 +77,9 @@ nav.nav li a {
 
 img {
 
-  width:200px; /* Largeur de votre photo */
-  height: auto; /* Hauteur automatique pour conserver les proportions */
-  border-radius:  50%; /* Ajout d'une bordure arrondie pour créer un effet de cercle */
+  width:200px; 
+  height: auto; 
+  border-radius:  50%; 
   border: 3px solid ; 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   display: block; 
@@ -156,7 +156,7 @@ img {
     font-size : 1.2rem;
   }
   
-  /* LEFT COLUMN */
+  /* colonne gauche */
   .left-column{
     grid-area: left-column;
     padding: 50px;
@@ -200,7 +200,7 @@ img {
 
   }
   
-  /* RIGHT COLUMN */
+  /* colonne droite */
   .right-column{
     grid-area: right-column;
     display: grid;
