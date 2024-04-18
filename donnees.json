@@ -1,0 +1,22 @@
+{
+    "hobbies": [
+        {
+            "id": 1,
+            "name": "Sports",
+            "description":"Passionné de la pratique de la course à pied depuis quelque temps, j'ai pu effectuer plusieurs courses notamment le mythique Marathon de Paris en Avril 2024. Je suis en projet de faire un marathon à l'étranger en 2025 comme celui de Prague."
+            
+        },
+        {
+            "id": 2,
+            "name": "Manga/Anime",
+            "description":"J'apprécie beaucoup la culture des mangas/anime japonnais, j'apprécie également tout ce qui est webtoon, cela fait partie d'un de mes passe temps et je fais également quelques petites collections."
+            
+        },
+        {
+            "id": 3,
+            "name": "Cinéma",
+            "description":"Depuis petit, mes parents m'ont initié au plaisir des films et des séries, cela fait également partie de mes passe temps et me permet de décompresser quand je le souhaite."
+        }
+    ]
+    
+}

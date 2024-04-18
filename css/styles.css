@@ -1,0 +1,188 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+}
+
+
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    height: 20vh;
+    padding: 25px;
+}
+
+/* page de bienvenue */
+
+.landing-page {
+    position: relative;
+    padding: 2px 50px;
+}
+
+.big-title {
+    color: white;
+    font-size:  60px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    width: 60%;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex; /* boite flexible pour mettre en ligne nav*/
+    justify-content: space-between;
+    list-style: none; /* enlever les puces*/
+    width: 400px;
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%; 
+    margin-left: 10%; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly; /* espacement entre les boites flex pour que ca soit espace de maniere egale */
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #ADD981;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* hobbies */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative; /* position non absolue */
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.hobbies {
+    margin: 100px;
+}
+
+.interets {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interet-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.interet1 {
+    background-image: url(../images/hobbies/1.jpg);
+}
+
+.interet2 {
+    background-image: url(../images/hobbies/2.jpg);
+}
+
+.interet3 {
+    background-image: url(../images/hobbies/3.jpg);
+}
+
+
+.interet-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.interet-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.interet-description {
+    font-size: 14px; 
+    overflow: hidden; /* masque tout texte dépassant la boite pour pas que cela dépasse */
+    width: 90%;
+}
+
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
