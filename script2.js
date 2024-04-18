@@ -32,29 +32,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Define the data we want to send
-const button = document.querySelector("submit-btn");
-
-button.addEventListener("click", (event) => {
-  });
-
-const data = {
-    nom: 'test',
-    email: document.getElementById('mail').value,
-    message : document.getElementById('msg').value,
-  };
-  console.log(nom)
-
-
-
-  // Send the POST request using fetch
-  fetch("https://api.example.com/data", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify(data)
-  })
-    .then((response) => response.json())
-    .then((data) => console.log("Success:", data))
-    .catch((error) => console.error("Error:", error));
